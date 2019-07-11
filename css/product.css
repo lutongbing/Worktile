@@ -1,0 +1,191 @@
+/*.pro_bigBox{
+	background-color: paleturquoise;
+}*/
+.navbar-default {
+	background-color: white;
+}
+.pro_banner{
+ 	background: url(../img/pro-banner-bg.jpg)no-repeat;
+ 	background-size: 100% 100%;
+	margin-top: -20px;
+	max-width: 100%;
+	display: block;
+	text-align: center;
+}
+#pro_banner_btn{
+	height: 40px;
+	background-color: #22d7bb;
+	color: white;
+
+}
+/*.pro_tabBox{
+	border: 1px solid yellow;
+}*/
+.pro_title_ul{
+	width: 80%;
+	margin: 0 auto;
+}
+.pro_title_ul>li{ 
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.pro_title_ul>li:hover{
+	cursor: pointer;
+	
+}
+.pro_tab{
+	width: 90%;
+	/*background-color: pink;*/
+}
+.pro_tabBox_txt h2{
+	font-size: 2em;
+	font-weight: bolder;
+}
+.pro_tabBox_txt p{
+	font-size: 0.9em;
+}
+.box10{
+	width: 90%;
+	padding: 40px 0px;
+	margin-top: 20px;
+	/*border: 3px solid yellowgreen;*/
+	
+}
+.index-bottom-title{
+	font-weight: bolder;
+	text-align: center;
+	
+}
+.index-bottom-title h1{
+	font-size: 2em;
+}
+.form-inline{
+	margin-top: 30px;
+}
+#exampleInputEmail2{
+	height: 50px;
+}
+.btn-default{
+	background-color: #22d7bb;
+	color: white;
+	height: 50px;
+}
+.active{
+	background-color: white;
+	color: #22d7bb;
+}
+
+
+
+
+/*大屏幕*/
+
+@media only screen and (min-width: 769px) {
+.pro_banner{
+	width:100%;
+	height:550px;
+	padding-top: 250px;
+	}
+.pro_banner h1{
+	font-size: 4em;
+	margin-bottom: 20px;
+    color: #485778;
+	font-family: Helvetica Neue,Hiragino Sans GB,stheiti,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,tahoma,sans-serif;
+}
+.pro_banner p{
+	font-size: 1em;
+	color: grey;
+	}
+#pro_banner_btn{
+	width: 15%;
+	font-size: 1.2em;
+	margin-top: 20px;
+}
+.pro_tabBox_title{
+	height: 96px;
+	background-color: #f6f3f3;
+}
+.pro_title_ul{
+	height: 96px;
+	}
+.pro_title_ul>li{
+	font-size: 1.3em;
+	line-height: 96px;
+	 }
+.pro_tabBox01,.pro_tabBox02,.pro_tabBox03,.pro_tabBox04,.pro_tabBox05{
+	/*background: pink;*/
+	height:450px;
+	margin-top: 50px;
+	
+}
+.pro_tabBox_txt{
+	float: left;
+	line-height: 30px;
+	margin-top: 150px;
+	text-align: center;
+}
+.form-inline{
+	margin-left: 36%;
+}
+#sign_in{
+	width: 20%;
+}
+}
+
+
+
+
+/*小屏幕*/
+
+
+ @media only screen and (min-width: 260px) and (max-width: 768px) {
+
+.pro_banner{
+	width:100%;
+	height: 300px;
+	padding-top: 150px;
+}
+.pro_banner h1{
+	font-size: 1.2em;
+	margin-bottom: 10px;
+    color: #485778;
+	font-family: Helvetica Neue,Hiragino Sans GB,stheiti,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,tahoma,sans-serif;
+}
+.pro_banner p{
+	font-size: 0.3em;
+	color: grey;
+}
+#pro_banner_btn{
+	width: 23%;
+	font-size: 1em;
+	margin-top: 10px;
+}	
+.pro_tabBox_title{
+	height: 60px;
+	background-color: #f6f3f3;
+}
+.pro_title_ul{
+	height: 60px;
+	}
+.pro_title_ul>li{
+	font-size: 0.8em;
+	line-height: 60px;
+}
+
+.pro_tabBox01,.pro_tabBox02,.pro_tabBox03,.pro_tabBox04,.pro_tabBox05{
+	/*background: pink;*/
+	height:400px;
+	clear: both;
+	margin-top: 50px;
+}
+.pro_tabBox_txt{
+	float: right;
+	line-height: 30px;
+	text-align: center;
+}
+#sign_in{
+	width: 100%;
+}
+}
+

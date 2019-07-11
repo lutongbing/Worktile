@@ -1,0 +1,58 @@
+body {
+	background-color: #f2f5fc;
+	/*#f2f5fc;*/
+}
+@media only screen and (max-width: 767px) {
+	.navbar-right>li>.btn {
+		display: none;
+	}
+	.navbar-right>li {
+		text-align: center;
+	}
+	.dropdown-menu>li {
+		text-align: center;
+	}
+}
+@media (min-width: 939px) and (max-width: 1366px) {
+	.navbar-brand{
+		
+	}
+	.navbar-brand>img {
+		width: 240px;
+		height: 40px;
+		margin-left:50px;
+		margin-top:10px;
+	}
+}
+
+@media (max-width: 938px) {
+	.navbar-brand>img {
+		margin-top: 13px;
+		width: 120px;
+		height: 20px;
+	}
+}
+
+
+
+.navbar-right>li>.btn {
+	margin-top: 10px;
+	width: 100px;
+	border-color: #22d7bb;
+	background-color: white;
+	color: #22d7bb;
+}
+
+.navbar-right>li>.btn:hover {
+	background-color: #22d7bb;
+	color: white;
+}
+
+.scroll {
+	z-index:100;
+	background-color:white;
+	
+}
+.boxShadow{
+	box-shadow: 5px 2px 5px lightgrey;
+}

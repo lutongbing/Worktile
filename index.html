@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		--><title>worktile首页</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="CommonCSS/header.css" />
+		<link rel="stylesheet" href="CommonCSS/footer.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/holder.js" ></script>
+		<script type="text/javascript" src="js/headerTop.js" ></script>
+		<script type="text/javascript" src="js/index-lunbo.js" ></script>
+		<script type="text/javascript" src="js/wow.js" ></script>
+		<script type="text/javascript" src="js/wow.min.js" ></script>
+			
+	</head>
+	<body>
+		<header>
+			<!--导航条-->
+			<nav class="navbar navbar-default" id="top_nav">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html"><img src="img/logo.png"/> </a>
+			    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 15px;">
+			      
+			      <ul class="nav navbar-nav navbar-right">
+			      	<li><a href="html/product.html">产品</a></li>
+			      	<li><a href="html/scheme.html">价格</a></li>
+			        <li><a href="html/scheme.html">解决方案</a></li>
+			        <li class="dropdown">
+			          <a href="html/login.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多服务<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="html/login.html">咨询服务</a></li>
+			            <li><a href="html/login.html">官方博客</a></li>
+			            <li><a href="html/login.html">帮助中心</a></li>
+			          </ul>
+			        </li>
+			      	<li>
+			      		<button type="button" class="btn" onclick='javaScript:register()' style="margin-top: 10px;width: 100px;background-color: #22d7bb;color: white;">注册</button>
+			      	</li>
+			      	<li>
+			      		<button type="button" class="btn" onclick='javaScript:login()'>
+			      			登录
+			      		</button>
+			      	</li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<!--背景框-->
+		<div class="t l OBox" style="background-color: #f2f5fc;margin-top: -20px;">
+			
+			<div class="bigBox c">
+				<!--box1-->
+				<div class="box1 c l">
+					<div id="box1-left" class="l">
+						<img src="img/index-banner-img.png" class="img-responsive"/>
+					</div>
+					<div id="box1-right" class="l wow rollIn" data-wow-duration="2s">
+						<h1> 更好的企业协作平台   </h1> 
+						<p> 专注于提升企业办公和管理效率，节约企业管理成本，进而提升企业核心竞争力。</p>
+						<form class="form-inline">
+						  <div class="form-group">
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="请输入您的手机号">
+						  </div>
+						  <button type="submit" class="btn btn-default" id="sign_in" onclick='javaScript:register()'>免费注册</button>
+						</form>
+					</div>
+				</div>
+				<!--box2-->
+				<div class="box2 c l  wow slideInRight" data-wow-duration="2s">
+					<h1 class="platform-title">一个平台满足企业协作办公需求</h1>
+					<p class="platform-title-p" style="margin-bottom: 20px;"> 包括哪些服务</p>
+					<img src="img/index-platform-img.png" class="img-responsive"/>
+				</div>
+				<!--box3-->
+				<div class="box3 c l  wow slideInLeft" data-wow-duration="2s">
+					<div class="container-fluid">
+						<div class="box3-row1 row l">
+  						<div class="box3-row col-md-4 col-sm-6 col-xs-12">
+  							<img src="img/index-platform-item-msg.png" class="img-responsive"/> 
+  							
+  							<h5 >即时沟通</h5><br />
+  							<div class="box3-p">专为工作场景打造的企业即时沟通工具，<br />成员之间保持实时联系，随时协调工作  </div> 
+  						</div>
+  						<div class="box3-row col-md-4 col-sm-6 col-xs-12">
+  							<img src="img/index-platform-item-project.png" /> 
+  							<h5>项目管理</h5><br />
+  							<div class="box3-p">专为工作场景打造的企业即时沟通工具，<br />成员之间保持实时联系，随时协调工作  </div> 
+  						</div>
+  						<div class="box3-row col-md-4 col-sm-6 col-xs-12">
+  							<img src="img/index-platform-item-oa.png" /> 
+  							<h5>办公管理</h5><br />
+  							<div class="box3-p">专为工作场景打造的企业即时沟通工具，<br />成员之间保持实时联系，随时协调工作  </div> 
+  						</div>
+  						<div class="box3-row col-md-4 col-sm-6 col-xs-12">
+  							<img src="img/index-platform-item-okr.png" /> 
+  							<h5>OKR</h5><br />
+  							<div class="box3-p">专为工作场景打造的企业即时沟通工具，<br />成员之间保持实时联系，随时协调工作  </div> 
+  						</div>
+  						<div class="box3-row col-md-4 col-sm-6 col-xs-12">
+  							<img src="img/index-platform-item-dashboard.png" /> 
+  							<h5>管理后台</h5><br />
+  							<div class="box3-p">专为工作场景打造的企业即时沟通工具，<br />成员之间保持实时联系，随时协调工作  </div> 
+  						</div>
+  					</div>
+					</div>
+				</div>
+				<!--box4-->
+				<div class="box4 c l wow slideInUp" data-wow-duration="2s">
+					<h1 class="platform-title"> 专为企业协作办公场景而设计</h1>
+					<p class="platform-title-p"> 给企业带来什么好处</p>
+					<div class="oa-left l"><img src="img/index-oa-img1.png" class="img-responsive"/> </div>
+						<div class="oa-right l">
+							<h1>  一体化办公，降低企业成本  </h1> 
+							 <ul class="index-oa-item-content">
+		                        <li>     管理层在一个地方看到各项工作进展 </li>
+		                        <li>	  员工不需要在多个不同系统之间切换</li>
+		                        <li>IT管理人员不用维护多套系统及组织架构和人员信息</li>
+		                    </ul>
+						</div>
+				</div>
+				<!--box5-->
+				<div class="box5 c l wow slideInUp" data-wow-duration="2s">
+					<div class="oa-right l">
+						<h1 style="margin-left: 50px;">    激发员工潜能，提高工作效率  </h1> 
+						 <ul class="index-oa-item-content">
+	                        <li>     管理层在一个地方看到各项工作进展 </li>
+	                        <li>	  员工不需要在多个不同系统之间切换</li>
+	                        <li>IT管理人员不用维护多套系统及组织架构和人员信息</li>
+	                    </ul>
+					</div>
+					<div class="oa-left l"><img src="img/img@2x-4.png" class="img-responsive"/> </div>
+				</div>
+				<!--box6-->
+				<div class="box6 c l wow slideInUp" data-wow-duration="2s">
+					<div class="oa-left l"><img src="img/index-oa-img3.png" class="img-responsive"/> </div>
+						<div class="oa-right r">
+							<h1> 打破信息孤岛，数据产生价值  </h1> 
+							 <ul class="index-oa-item-content">
+		                        <li>     管理层在一个地方看到各项工作进展 </li>
+		                        <li>	  员工不需要在多个不同系统之间切换</li>
+		                        <li>IT管理人员不用维护多套系统及组织架构和人员信息</li>
+		                    </ul>
+						</div>
+				</div>
+			
+
+			</div>
+		</div>
+<!--white box-->
+		<div class="t l  OBox" style="background-color: white;">
+		<!--bigBox2-->
+			<div class="bigBox2 c">
+				<!--box7-->
+				<div class="box7 c l wow wobble" data-wow-duration="2s">
+					<h1 class="platform-title"> 数百万企业的共同选择</h1>
+					<p class="platform-title-p"> 谁在使用</p>
+				</div>
+				<!--box8-->		
+				<div class="box8 c l wow slideInLeft" data-wow-duration="2s">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="l box8-row col-md-4">
+								<div class="box8-row-item">
+									<img src="img/index-enterprise-img1.png" class="img-responsive"/>
+									<div class="index-enterprise-item-title">
+                                    	奔驰
+                                	</div>
+	                                <div class="index-enterprise-item-desc">
+	                                    "
+	                                    Worktile是以项目管理为核心打造的企业协作平台，从沟通、协作、办公以及连接四个方面服务于企业日常办公流程。"
+	                                </div>
+								</div>
+							</div>
+							<div class="l box8-row col-md-4">
+								<div class="box8-row-item">
+									<img src="img/index-enterprise-img2.png" class="img-responsive" />
+									<div class="index-enterprise-item-title">
+                                    	小红书
+                                	</div>
+	                                <div class="index-enterprise-item-desc">
+	                                    "
+	                                    Worktile是以项目管理为核心打造的企业协作平台，从沟通、协作、办公以及连接四个方面服务于企业日常办公流程。"
+	                                </div>
+								</div>
+							</div>
+							<div class="l box8-row col-md-4">
+									<div class="box8-row-item">
+									<img src="img/index-enterprise-img3.png" class="img-responsive" />
+									<div class="index-enterprise-item-title">
+                                    	京东金融
+                                	</div>
+	                                <div class="index-enterprise-item-desc">
+	                                    "
+	                                    Worktile是以项目管理为核心打造的企业协作平台，从沟通、协作、办公以及连接四个方面服务于企业日常办公流程。"
+	                                </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--box9-->		
+				<div class="box9 c l">
+					<p class="platform-title-p"> 超过 50万 企业使用</p>
+					<div id="slides" class="c">
+						<ul id="picBox">
+							<li>
+								<div class="col2 clearfix sPic l">
+				                   <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up"
+				                             src="img/1.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="100"
+				                             src="img/10.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="200"
+				                             src="img/11.jpg">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="300"
+				                             src="img/12.jpg">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="400"
+				                             src="img/13.jpg">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="500"
+				                             src=" img/14-2.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="600"
+				                             src="img/15.jpg">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="700"
+				                             src="img/16.jpg">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="800"
+				                             src="img/17.jpg">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="900"
+				                             src="img/19.jpg">
+				                    </div>
+                				</div>
+							</li>
+							<li>
+								<div class="col2 clearfix sPic l">
+									<div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up"
+				                             src="img/21.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="100"
+				                             src="img/3.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="200"
+				                             src="img/4.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="300"
+				                             src="img/5.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="400"
+				                             src="img/6.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="500"
+				                             src="img/7.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="600"
+				                             src="img/8.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="700"
+				                             src="img/9.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="700"
+				                             src="img/2.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="700"
+				                             src="img/20.png">
+				                    </div>
+                				</div>
+							</li>
+							<li>
+								<div class="col2 clearfix sPic l">
+									<div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up"
+				                             src="img/22.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="100"
+				                             src="img/23.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="200"
+				                             src=" img/24.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="300"
+				                             src="img/25.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="400"
+				                             src="img/26.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="500"
+				                             src="img/27.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="600"
+				                             src="img/28.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="700"
+				                             src="img/29.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="800"
+				                             src="img/30.png">
+				                    </div>
+				                    <div class="index-partner-item">
+				                        <img class="index-partner-img" data-aos="fade-up" data-aos-delay="900"
+				                             src="img/31.png">
+				                    </div>
+								</div>
+							</li>
+						</ul>
+                		
+				
+					</div>
+			
+			</div>
+			</div>
+		</div>
+		<!--bottom box-->
+		<div class="t l OBox" style="background-color: #f2f5fc;;">
+		<!--box10-->
+			<div class="box10 c wow slideInUp" data-wow-duration="2s">
+				<div class="index-bottom-title">
+					<h1>专注协作办公，马上开始免费使用</h1>
+       			</div>
+	        	<form class="form-inline" style="">
+						  <div class="form-group">
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="请输入您的手机号">
+						  </div>
+						  <button type="submit" class="btn btn-default" id="sign_in" onclick='javaScript:register()'>免费注册<i class="glyphicon glyphicon-arrow-right" style="margin-left: 10%;"></i></button>
+				</form>
+			</div>
+		</div>
+		
+
+
+
+
+	
+		
+		<footer></footer>
+	</body>
+	<script>
+		$('footer').load('CommonHtml/footer.html')
+	
+			function register(){
+				window.location.href="./html/register.html";
+			}
+			function login(){
+				window.location.href="./html/login.html";
+			}
+		 new WOW().init();
+	</script>
+</html>

@@ -1,0 +1,79 @@
+footer{
+	width: 100%;
+}
+.home-footer{
+	height: 400px;
+	/*border: 2px solid red;*/
+}
+.map-link{
+	width: 90%;
+	/*background-color: bisque;*/
+}
+.left-side{
+	width: 60%;
+}
+.column{
+	font-size: 1em;
+}
+.column:nth-child(1){
+	margin-left: 0px;
+}
+.column li{
+	padding-top: 20px;
+}
+.column li h4{
+	
+	color: black;
+	font-weight: bold;
+}
+.column li a{
+	color: gray;
+	text-decoration: none;
+}
+.column li a:hover{
+	color: black;
+}
+.column-right{
+	width: 35%;
+	margin-top: 50px;
+	/*border: 1px solid black;*/
+}
+.column-right li a{
+	font-size:1.5em;
+}
+.investigation-content{
+	/*border:1px solid black;*/
+	height: 80px;
+	text-align: center;
+	background-color: #f2f5fc;
+}
+.trust-icon img{
+	width: 60px;
+	height: 20px;
+}
+.safe-icon img{
+	width: 80px;
+	height: 20px;
+	margin-left: 20px;
+}
+.language-switch{
+	width: 100%;
+	margin-top: 15px;
+	font-size: 1.5em;
+}
+.glyphicon-globe{
+	color: #22d7bb;
+}
+.language-switch-select{
+	width: 50%;
+}
+.shadow{
+	width: 100%;
+	margin-top: 20px;
+	/*border: 1px solid yellow;*/
+	color: lightgrey;
+}
+.shadow>i{
+	margin-left: 5%;
+	font-size: 1.2em;
+}
